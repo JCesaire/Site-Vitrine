@@ -1,1 +1,29 @@
-
+  header {
+    height: 100px;
+    background-color: cadetblue;
+  }
+  .logo,
+  .connexion {
+    background-color: coral;
+  }
+  aside {
+    height: auto;
+    background-color: lightslategray;
+  }
+  .article1,
+  .article2,
+  .article3 {
+    height: 200px;
+    background-color: deeppink;
+  }
+  .article4 {
+    height: 400px;
+    background-color: greenyellow;
+  }
+  footer {
+    height: 200px;
+    background-color: cadetblue;
+  }
+  .tutu {
+    height: 300px;
+  }
