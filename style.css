@@ -2,10 +2,6 @@
     height: 100px;
     background-color: cadetblue;
   }
-  .logo,
-  .connexion {
-    background-color: coral;
-  }
   aside {
     height: auto;
     background-color: lightslategray;
@@ -13,8 +9,9 @@
   .article1,
   .article2,
   .article3 {
-    height: 200px;
+    height: 350px;
     background-color: deeppink;
+    margin-bottom: 10px;
   }
   .article4 {
     height: 400px;
@@ -26,4 +23,9 @@
   }
   .tutu {
     height: 300px;
+  }
+  .logo{
+width: 20%;
+height: 20%;
+
   }
