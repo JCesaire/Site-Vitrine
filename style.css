@@ -9,12 +9,14 @@
   .article1,
   .article2,
   .article3 {
-    height: 350px;
+    height: auto;
     background-color: deeppink;
     margin-bottom: 10px;
   }
+  
   .article4 {
-    height: 400px;
+    height: auto;
+    width: 100%;
     background-color: greenyellow;
   }
   footer {
@@ -28,4 +30,9 @@
 width: 20%;
 height: 20%;
 
+  }
+
+ul .liste::marker{
+    content: "▾";
+    color: #d2228c;
   }
