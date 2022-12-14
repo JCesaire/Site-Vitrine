@@ -36,3 +36,15 @@ ul .liste::marker{
     content: "▾";
     color: #d2228c;
   }
+  
+article >image{
+padding: 30px;
+}
+
+@media screen and (min-width :650px) {
+  .logo{
+    width: 100px;
+height: 100px;
+  }
+  
+}
