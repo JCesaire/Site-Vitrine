@@ -16,11 +16,11 @@
   
   .article4 {
     height: auto;
-    width: 100%;
     background-color: greenyellow;
   }
   footer {
     height: 200px;
+    width: auto;
     background-color: cadetblue;
   }
   .tutu {
@@ -37,9 +37,11 @@ ul .liste::marker{
     color: #d2228c;
   }
   
-article >image{
-padding: 30px;
-}
+  .space{
+    height:60px;
+    background-color: white;
+  }
+
 
 @media screen and (min-width :650px) {
   .logo{
