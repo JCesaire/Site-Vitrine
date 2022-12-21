@@ -1,6 +1,19 @@
+  .rose{
+color: #e52485;
+  }
+
+  .blue{
+    color: #00ADE9;
+  }
+  .green{
+    color: #8abd24;
+  }
   header {
-    height: 100px;
-    background-color: cadetblue;
+    height: auto;
+   background: linear-gradient(70deg, #00ADE9,
+   #e52485,#8abd24
+   );
+    
   }
   aside {
     height: auto;
@@ -9,10 +22,10 @@
   .article1,
   .article2,
   .article3 {
-    height: auto;
-    background-color: deeppink;
-    margin-bottom: 10px;
+
+
   }
+
   
   .article4 {
     height: auto;
@@ -21,7 +34,7 @@
   footer {
     height: 200px;
     width: auto;
-    background-color: cadetblue;
+    background-color: rgb(208, 222, 223);
   }
   .tutu {
     height: 300px;
@@ -38,7 +51,7 @@ ul .liste::marker{
   }
   
   .space{
-    height:60px;
+    height:30px;
     background-color: white;
   }
 
@@ -48,5 +61,43 @@ ul .liste::marker{
     width: 100px;
 height: 100px;
   }
+  
+}
+.icon-sn{
+  display: flex;
+  flex-direction: row-reverse;
+  
+  
+}
+svg{
+  margin-right: 20px;
+  width:40px ;
+  height:40px  
+  
+}
+/* unvisited link */
+.icon-sn>a:link {
+  color: red;
+}
+
+/* visited link */
+.icon-sn>a:visited {
+
+  color: #e52485;
+}
+
+/* mouse over link */
+.icon-sn>a:hover {
+  color: #00ADE9;
+}
+
+/* selected link */
+.icon-sn>a:active {
+  
+  color: #8abd24;
+
+}.icon{
+  display: flex;
+  justify-content: center;
   
 }
