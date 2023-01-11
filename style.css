@@ -56,13 +56,14 @@ ul .liste::marker{
   }
 
 
-@media screen and (min-width :650px) {
+@media screen and (min-width :900px) {
   .logo{
-    width: 100px;
-height: 100px;
+    width: 167px;
   }
   
+
 }
+
 .icon-sn{
   display: flex;
   flex-direction: row-reverse;
@@ -100,4 +101,15 @@ svg{
   display: flex;
   justify-content: center;
   
+}
+
+.img-event{
+  width: 60%;
+}
+@media screen and (min-width :900px) {
+  .img-event{
+    width: 40%;
+  }
+  
+
 }
