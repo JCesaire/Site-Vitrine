@@ -103,13 +103,25 @@ svg{
   
 }
 
+.containt-img{
+  display: flex;
+}
+
 .img-event{
-  width: 60%;
+  width: 70%;
+  justify-content: center;
+  margin-top: 40px;
 }
 @media screen and (min-width :900px) {
   .img-event{
-    width: 40%;
+    width: 500px;
   }
   
 
 }
+
+/*RAJOUTER PLUS DESPACE EN ENTRE LES ARTICLES EN MODE TELS
+A faire :
+Rajouter les articles correspondant
+
+*/
