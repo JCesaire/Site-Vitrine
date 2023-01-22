@@ -19,13 +19,10 @@ color: #e52485;
     height: auto;
     background-color: lightslategray;
   }
-  .article1,
-  .article2,
-  .article3 {
 
-
-  }
-
+.explication{
+ margin-left: 35%;
+}
   
   .article4 {
     height: auto;
@@ -111,6 +108,7 @@ svg{
   width: 70%;
   justify-content: center;
   margin-top: 40px;
+  margin-bottom: 20px;
 }
 @media screen and (min-width :900px) {
   .img-event{
